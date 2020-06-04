@@ -31,7 +31,7 @@ body {
   font-size: 2rem;
   color: #fff;
   font-weight: 700;
-  background-image: linear-gradient(to bottom, transparent 50%, #2ecc5d 50%);
+  background-image: linear-gradient(to bottom, transparent 50%, #000000 50%);
   background-size: 100% 200%;
   transition: 0.5s ease-out;
   cursor: pointer;
@@ -39,6 +39,6 @@ body {
 
 .generate:hover {
   background-position: 0 100%;
-  box-shadow: inset 4px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 2px 2px rgba(0, 0, 0, 0.2);
   text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
 }
